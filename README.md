@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+@@ -0,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lists</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://atuin.ru/demo/ripples/jquery.ripples-min.js"></script>
+</head>
+<style type="text/css">
+	body{
+		background-image: url('https://ak7.picdn.net/shutterstock/videos/4297247/thumb/1.jpg')center;
+		background-color: #1A162A;
+		margin: 0px;
+		padding: 0px;
+	}
+	.full-landing-image{
+		width: 100%;
+		height: 90vh;
+		background: url('https://pbs.twimg.com/media/D-U2xmnX4AEf0Wj?format=jpg&name=medium')no-repeat center;
+		background-size: cover;
+	}
+.Txt {
+    font-size: 79px;
+    font-weight: bold;
+    line-height: 0;
+    position: middle;
+    display: inline-block;
+    margin: .25px;
+    padding: .5px .75px;
+    text-align: center;
+    /* Color fallback */
+    color: #fff;
+    -webkit-background-clip: text;
 
-You can use the [editor on GitHub](https://github.com/SaltF1/waterimg.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+    -webkit-text-fill-color: transparent;
+}
+.Txt{
+    background-image: url('https://i.gifer.com/WXdf.gif');
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SaltF1/waterimg.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</style>
+<body>
+	<div class="Txt">
+	<h1>Night~</h1>
+    </div>
+	<div class="full-landing-image">
+		
+	</div>
+<script type="text/javascript">
+	$('.full-landing-image').ripples({
+    resolution: 256,
+    dropRadius: 18,
+    perturbance: 0.04
+});
+ 
+</script>
+</body>
+</html>
